@@ -8,7 +8,7 @@ def dice_roll(dice,sides):
         face = random.randint(1,sides)
         roll.append(face)
 
-    return roll
+    return roll 
 try:
 
     dice = int(input("Dice: "))
