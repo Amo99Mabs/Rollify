@@ -15,7 +15,7 @@ try:
     if (dice <= 0):
        print("Must have at least one dice!")
        quit()
-except ValueError:
+except ValueError: 
     print("Invalid input! Please enter a number for dice.")
     quit
 
