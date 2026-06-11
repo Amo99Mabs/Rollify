@@ -9,7 +9,7 @@ def dice_roll(dice,sides):
         roll.append(face)
 
     return roll 
-try:  
+try:   
 
     dice = int(input("Dice: "))
     if (dice <= 0):
