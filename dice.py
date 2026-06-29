@@ -2,7 +2,7 @@ import random
 
 def dice_roll(dice,sides):
 
-    roll = []
+    roll = [] 
 
     for i in range(dice):
         face = random.randint(1,sides)
